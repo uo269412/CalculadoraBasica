@@ -11,12 +11,12 @@
 		<h1>Calculadora Básica</h1>
 		<script src="CalculadoraBasica.js"></script>
 		<div class="calculadora">
-			<div name="calculator" id="calculator">
+			<div id="calculator">
         		<input title = "resultados" type="text" name="ventanaResultados" id="ventanaResultados" disabled>
         		<div>
 					<button type="button" id="mrc" value="" onclick="calculadoraScript.meterEnMemoria()">mrc</button>
-					<button type="button" id="m" value="" onclick="calculadoraScript.calcularMenos()">m-</button>
-            		<button type="button" id="m" value="" onclick="calculadoraScript.calcularMas()">m+</button>
+					<button type="button" id="m-" value="" onclick="calculadoraScript.calcularMenos()">m-</button>
+            		<button type="button" id="m+" value="" onclick="calculadoraScript.calcularMas()">m+</button>
             		<input type="button" id="divide" value="/" onclick="calculadoraScript.añadirAResultados(document.getElementById('divide').value)">
 	    		</div>
 				<div>
