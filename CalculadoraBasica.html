@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+		<meta charset="UTF-8">
+		<meta name = viewport content = "width = device-width, initial-scale = 1">
+		<title>Calculadora Básica</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    </head>
+    <body>
+		<h1>Calculadora Básica</h1>
+		<script src="CalculadoraBasica.js"></script>
+		<div class="calculadora">
+			<div name="calculator" id="calculator">
+        		<input title = "resultados" type="text" name="ventanaResultados" id="ventanaResultados" disabled>
+        		<div>
+					<button type="button" id="mrc" value="" onclick="calculadoraScript.meterEnMemoria()">mrc</button>
+					<button type="button" id="m" value="" onclick="calculadoraScript.calcularMenos()">m-</button>
+            		<button type="button" id="m" value="" onclick="calculadoraScript.calcularMas()">m+</button>
+            		<input type="button" id="divide" value="/" onclick="calculadoraScript.añadirAResultados(document.getElementById('divide').value)">
+	    		</div>
+				<div>
+					<input type="button" id="one" value="1" onclick="calculadoraScript.añadirAResultados(1)">
+					<input type="button" id="two" value="2" onclick="calculadoraScript.añadirAResultados(2)">
+            		<input type="button" id="three" value="3" onclick="calculadoraScript.añadirAResultados(3)">
+            		<input type="button" id="by" value="*" onclick="calculadoraScript.añadirAResultados(document.getElementById('by').value)">	
+	    		</div>
+	    		<div>
+					<input type="button" id="four" value="4" onclick="calculadoraScript.añadirAResultados(4)">
+					<input type="button" id="five" value="5" onclick="calculadoraScript.añadirAResultados(5)">
+					<input type="button" id="six" value="6" onclick="calculadoraScript.añadirAResultados(6)">
+					<input type="button" id="minus" value="-" onclick="calculadoraScript.añadirAResultados(document.getElementById('minus').value)">
+				</div>
+				<div>
+					<input type="button" id="seven" value="7" onclick="calculadoraScript.añadirAResultados(7)">
+					<input type="button" id="eight" value="8" onclick="calculadoraScript.añadirAResultados(8)">
+           	 		<input type="button" id="nine" value="9" onclick="calculadoraScript.añadirAResultados(9)">
+            		<input type="button" id="plus" value="+" onclick="calculadoraScript.añadirAResultados(document.getElementById('plus').value)">
+	    		</div>
+	   	 		<div>
+					<input type="button" id="zero" value="0" onclick="calculadoraScript.añadirAResultados(document.getElementById('zero').value)">
+            		<input type="button" id="decimal" value="." onclick="calculadoraScript.añadirAResultados(document.getElementById('decimal').value)">
+            		<button type="button" id="clear" value="" onclick="calculadoraScript.borrarDatos(document.getElementById('clear').value)">C</button>
+            		<input type="button" id="equal" value="=" onclick="calculadoraScript.calcularResultados()">
+	    		</div>
+			</div>	
+		</div>
+	</body>
+</html>

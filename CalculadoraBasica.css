@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	font-size: 1em;
+	color: rgb(0, 0, 0);
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+}
+
+body div.calculadora {
+	text-align: center;
+	width: 35em;
+	margin: 0 auto;
+}
+
+div input, button {
+	border-radius: 1em;
+	width: 3em;
+	height: 3em;
+	margin: 1em 1em;
+	background-color: rgb(0, 0, 0);
+	font-size: 1em;
+	color: rgb(255, 255, 255);
+}
+
+div input[title="resultados"] {
+	height: 2.5em;
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	padding: 1.5em 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+
+div input[title="pila"] {
+	height: 2.5em;
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	padding: 1.5em 1em;
+    margin-top: 1em;
+    box-sizing: border-box;
+	border-radius: 2em;
+	overflow-x: auto;
+}
+
+div.results input {
+	height: 5m;
+	width: 2.5em;
+}
