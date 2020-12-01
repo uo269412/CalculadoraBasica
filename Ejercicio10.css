@@ -1,0 +1,46 @@
+/*001*/
+body {
+    font-family: "Optima", sans-serif;
+    padding:1em;
+    font-size:1em;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+/*001*/
+h1 {
+    color:rgb(15, 0, 70);
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*001*/
+h2 {
+    color:rgb(17, 2, 68);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/*001*/
+h3 {
+    color:rgb(22, 3, 92);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+/*001*/
+h4{
+    color:rgb(32, 4, 133);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+/*001*/
+ul {
+    list-style-type: circle;
+    width: 30%;
+}
+/*001*/
+li {
+    padding: 6px;
+}
+/*002*/
+ul li {
+    margin-left: 20px;
+}
